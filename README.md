@@ -1,2 +1,16 @@
 # python-bsc
-interact with bsc using Python
+用于和币安智能链交互的Python脚本
+
+### send.py
+提供:
+* 合约地址
+* 发送方钱包地址
+* 接收方钱包地址
+* 发送方私钥
+
+功能：
+* 发送指定数额的合约代币至指定钱包地址
+
+### TODO: 
+* 创建钱包
+* 在pancakeswap上购买代币
