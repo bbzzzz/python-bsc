@@ -64,7 +64,8 @@ token_tx = contract.functions.transfer(main_address, amount).buildTransaction({
 })
 
 # sign the transaction
-# 签名
+# 使用私钥签名 
+# 私钥存在config文件中
 sign_txn = web3.eth.account.signTransaction(token_tx, private_key = config.private_key)
 
 # send the transaction
