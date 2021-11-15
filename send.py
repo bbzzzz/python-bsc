@@ -4,8 +4,8 @@ from util import *
 import config
 
 # 钱包地址
-main_address = '0x00A826110227C91BDE81dD37F2f2edcA701Da7e2'
-sender_address = '0xee6e373BB78Cb272D021DB7B03302623e85b308f'
+main_address = config.main_address
+sender_address = config.sender_address
 
 # json-rpc endpoint
 bsc = "https://bsc-dataseed.binance.org/"
